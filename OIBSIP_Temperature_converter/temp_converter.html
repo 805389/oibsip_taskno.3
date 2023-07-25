@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="Wolf design/wolf.css">
+    <script src="https://kit.fontawesome.com/0a353b2ed0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="bg">
+        <div class="login-box">
+            <p>Temperature Converter <i class="fa-solid fa-temperature-high"></i></p>
+            <form>
+                <div class="user-box">
+                    <input type="number" id="celsiusInput" placeholder="Enter Celsius" oninput="convert('celsius')">
+                    <label>°C</label>
+                </div>
+                <div class="user-box">
+                    <input type="number" id="fahrenheitInput" placeholder="Enter Fahrenheit" oninput="convert('fahrenheit')">
+                    <label>°F</label>
+                </div>
+                <a href="#">Clear</a>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+</style>
+</html>
